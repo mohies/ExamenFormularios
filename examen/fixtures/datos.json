@@ -1,0 +1,781 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-12-12T08:04:21.872Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Pepe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-12-12T08:04:26.307Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Alvaro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-12-12T08:04:31.698Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Manuel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-12-12T08:04:39.883Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Carlos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-12-12T08:04:44.734Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Maria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-12-12T08:04:53.960Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Ps5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-12-12T08:04:59.842Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "PC GAMER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-12-12T08:05:07.988Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "RESIDENT EVIL 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-12-12T08:05:11.651Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "GTA 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-12-12T08:06:42.044Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "ALICATE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-12-12T08:06:47.476Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "TV 65\"",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-12-12T08:06:59.913Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Riot Points",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-12-12T10:03:09.251Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "RESIDENT EVIL 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puede tener promociones\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-12-12T10:03:12.828Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "PC GAMER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puede tener promociones\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-12-12T10:03:15.195Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Ps5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puede tener promociones\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add producto",
+        "content_type": 7,
+        "codename": "add_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change producto",
+        "content_type": 7,
+        "codename": "change_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete producto",
+        "content_type": 7,
+        "codename": "delete_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view producto",
+        "content_type": 7,
+        "codename": "view_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 8,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 8,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 8,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 8,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add promocion",
+        "content_type": 9,
+        "codename": "add_promocion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change promocion",
+        "content_type": 9,
+        "codename": "change_promocion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete promocion",
+        "content_type": 9,
+        "codename": "delete_promocion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view promocion",
+        "content_type": 9,
+        "codename": "view_promocion"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$MTRTf4x5kCi5ZvmHULn4Tw$Gp98PVpEheM9vKpnEkNdoInRiO+jwpocNtaA9PnE++U=",
+        "last_login": "2024-12-12T08:04:03.538Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-12-12T08:03:38.555Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "examen",
+        "model": "producto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "examen",
+        "model": "usuario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "examen",
+        "model": "promocion"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z9wtv870cuwoyy3p8qpnaljlvxpwxr3x",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAGSmFcuvcMZGCoVA0kpV0Z765NutDtf-_9lwi0rSVsPS9hZnEWIE6_W6T0yHUHfKd6azK1ui5zlLsiD9rltXF-Xg7376BQL9_a8OSZDaA1qClmRdElN1pyGRDRA_Go7eCVt3HQrIAgRXQGnJkSZxTvD99WN6s:1tLeB1:gWkqoqtvjRsIM5xmGovawxOPiHlMG3gT6sBJ417ywpk",
+        "expire_date": "2024-12-26T08:04:03.555Z"
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "Pepe",
+        "edad": 18
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Alvaro",
+        "edad": 16
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Manuel",
+        "edad": 27
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 4,
+    "fields": {
+        "nombre": "Carlos",
+        "edad": 50
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 5,
+    "fields": {
+        "nombre": "Maria",
+        "edad": 14
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ps5",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 2,
+    "fields": {
+        "nombre": "PC GAMER",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 3,
+    "fields": {
+        "nombre": "RESIDENT EVIL 4",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 4,
+    "fields": {
+        "nombre": "GTA 5",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 5,
+    "fields": {
+        "nombre": "ALICATE",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 6,
+    "fields": {
+        "nombre": "TV 65\"",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examen.producto",
+    "pk": 7,
+    "fields": {
+        "nombre": "Riot Points",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examen.promocion",
+    "pk": 1,
+    "fields": {
+        "nombre": "BLACK FRIDAY",
+        "descripcion": "ASDSDASDAasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "producto": 7,
+        "fecha_inicio": "2024-01-30",
+        "fecha_fin": "2024-12-12",
+        "descuento": 5,
+        "esta_activa": true,
+        "usuarios": [
+            1
+        ]
+    }
+},
+{
+    "model": "examen.promocion",
+    "pk": 3,
+    "fields": {
+        "nombre": "pepe",
+        "descripcion": "asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "producto": 7,
+        "fecha_inicio": "2024-12-28",
+        "fecha_fin": "2024-12-31",
+        "descuento": 5,
+        "esta_activa": true,
+        "usuarios": [
+            4
+        ]
+    }
+},
+{
+    "model": "examen.promocion",
+    "pk": 4,
+    "fields": {
+        "nombre": "OFerta VIernes13",
+        "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "producto": 3,
+        "fecha_inicio": "2024-12-12",
+        "fecha_fin": "2024-12-31",
+        "descuento": 5,
+        "esta_activa": true,
+        "usuarios": [
+            4
+        ]
+    }
+},
+{
+    "model": "examen.promocion",
+    "pk": 5,
+    "fields": {
+        "nombre": "oferta navideñas",
+        "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "producto": 2,
+        "fecha_inicio": "2024-12-23",
+        "fecha_fin": "2024-12-31",
+        "descuento": 4,
+        "esta_activa": true,
+        "usuarios": [
+            1,
+            3,
+            4
+        ]
+    }
+}
+]

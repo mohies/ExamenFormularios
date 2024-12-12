@@ -1,0 +1,50 @@
+{% extends "examen/estructura/base.html" %}
+
+{% block content %}
+{% load django_bootstrap5 %}
+
+<form action="{% url 'buscar_promociones' %}" method="GET">
+
+    {% csrf_token %}
+
+    <!-- Campo de texto para búsqueda -->
+    <div class="mb-4">
+        {% bootstrap_field formulario.textoBusqueda show_label=True %}
+       
+    </div>
+
+    <!-- Campo de fecha de ingreso desde -->
+    <div class="mb-4">
+        {% bootstrap_field formulario.fecha_fin_desde show_label=True %}
+    
+    </div>
+
+    <!-- Campo de fecha de ingreso hasta -->
+    <div class="mb-4">
+        {% bootstrap_field formulario.fecha_fin_hasta show_label=True %}
+     
+    </div>
+
+    <!-- Campo de puntos mínimos -->
+    <div class="mb-4">
+        {% bootstrap_field formulario.promocion_minima show_label=True %}
+     
+    </div>
+    <div class="mb-4">
+        {% bootstrap_field formulario.usuarios show_label=True %}
+     
+    </div>
+    <div class="mb-4">
+        {% bootstrap_field formulario.estado show_label=True %}
+     
+    </div>
+
+ 
+    <!-- Botón de búsqueda -->
+    <div class="text-center">
+        {% bootstrap_button "Buscar Promociones" button_type="submit" button_class="btn-primary" %}
+    </div>
+
+</form>
+
+{% endblock %}

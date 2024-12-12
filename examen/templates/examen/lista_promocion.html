@@ -1,0 +1,53 @@
+{% extends 'examen/estructura/base.html' %}
+
+{% block title %}Lista de Promociones{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Lista de Promociones</h1>
+
+    {% block busqueda %}
+        {% if texto_busqueda %}
+            <h2 class="display-5">Resultados de la búsqueda: "{{ texto_busqueda }}"</h2>
+        {% endif %}
+    {% endblock %}
+
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            {% for promocion in promociones_mostrar %}
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">{{ promocion.nombre }}</h5>
+                            <p class="card-text">
+                                <strong>descripcion:</strong> {{ promocion.descripcion}}<br>
+                                <strong>producto:</strong> {{ promocion.producto.nombre }}<br>
+                                <strong>usuarios:</strong> {% for usuario in promocion.usuarios.all %}
+                                {{usuario.nombre}}
+                                {%endfor%}<br>
+                                <strong>fecha_inicio:</strong> {{ promocion.fecha_inicio }}<br>
+                                <strong>fecha_fin:</strong>{{promocion.fecha_fin}}<br>
+                                <strong>descuento:</strong>{{promocion.descuento}}
+                            </p>
+                          
+                            <div class="mt-auto">
+                                <!-- Botón para actualizar -->
+                                <a href="{% url 'editar_promocion' promocion.id %}" class="btn btn-outline-secondary">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <!-- Botón para eliminar -->
+                                <form action="{% url 'eliminar_promocion' promocion.id %}" method="post" class="d-inline">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-outline-danger" onclick="return confirm('¿Estás seguro de que deseas eliminar esta promocion?');">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
