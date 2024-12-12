@@ -140,7 +140,7 @@ def promocion_eliminar(request, promocion_id):
         promcion.delete()
         
 
-        messages.success(request, f"Se ha eliminado la promocion  {Promocion.nombre} correctamente.")
+        messages.success(request, f"Se ha eliminado la promocion  {promcion.nombre} correctamente.")
         
     except Promocion.DoesNotExist:
   
